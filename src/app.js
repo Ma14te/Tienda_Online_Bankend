@@ -14,7 +14,7 @@ const app = express();
 
 // CORS actualizado para Angular
 const corsOptions = {
-  origin: ['http://localhost:4200', 'http://localhost:3000'], // Permitir ambos puertos
+  origin: ['http://localhost:4200', 'https://tiendaonlinebankend-production.up.railway.app/'], // Permitir ambos puertos
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Importante para enviar cookies/headers
   preflightContinue: false,
